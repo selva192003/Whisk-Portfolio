@@ -4,7 +4,19 @@ import { FaGithub } from 'react-icons/fa';
 import Image from 'next/image';
 import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion';
 
-const projects = [
+type ProjectType = {
+    id: number;
+    title: string;
+    category: string;
+    year: string;
+    description: string;
+    technologies: string[];
+    link: string;
+    github: string;
+    image: string;
+};
+
+const projects: ProjectType[] = [
     {
         id: 1,
         title: "IPL Stats Hub",
@@ -62,7 +74,7 @@ const projects = [
     }
 ];
 
-function ProjectCard({ project, index }: { project: any; index: number }) {
+function ProjectCard({ project, index }: { project: ProjectType; index: number }) {
     const x = useMotionValue(0);
     const y = useMotionValue(0);
 

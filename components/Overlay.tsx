@@ -88,7 +88,7 @@ export default function Overlay() {
             >
                 <div className="max-w-3xl bg-black/20 backdrop-blur-md p-8 md:p-12 rounded-3xl border border-blue-500/10">
                     <p className="text-3xl md:text-5xl text-white font-bold leading-tight">
-                        A passionate fresher with a Bachelor's degree in Information Technology.
+                        A passionate fresher with a Bachelor&apos;s degree in Information Technology.
                     </p>
                 </div>
             </motion.div>
@@ -100,7 +100,7 @@ export default function Overlay() {
             >
                 <div className="max-w-3xl bg-black/20 backdrop-blur-md p-8 md:p-12 rounded-3xl border border-emerald-500/10">
                     <p className="text-3xl md:text-5xl text-white font-bold leading-tight">
-                        Completed Master's in Computer Applications at Kongu Engineering College.
+                        Completed Master&apos;s in Computer Applications at Kongu Engineering College.
                     </p>
                 </div>
             </motion.div>

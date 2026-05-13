@@ -2,7 +2,14 @@
 import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion';
 import { MdCode, MdScience, MdCloud } from "react-icons/md";
 
-const services = [
+type ServiceType = {
+    title: string;
+    description: string;
+    icon: React.ElementType;
+    color: string;
+};
+
+const services: ServiceType[] = [
     {
         title: "Full-Stack Development",
         description: "Building scalable web applications from end-to-end. Expertise in React, Next.js for fluid user interfaces and Node.js, Spring Boot for robust backend architectures.",
@@ -23,7 +30,7 @@ const services = [
     }
 ];
 
-function ServiceCard({ service, index }: { service: any; index: number }) {
+function ServiceCard({ service, index }: { service: ServiceType; index: number }) {
     const x = useMotionValue(0);
     const y = useMotionValue(0);
 

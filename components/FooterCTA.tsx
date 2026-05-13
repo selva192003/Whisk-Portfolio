@@ -1,6 +1,6 @@
 'use client';
 import { useRef } from 'react';
-import { MdEmail, MdPhone, MdLocationOn, MdArrowForward } from 'react-icons/md';
+import { MdEmail, MdPhone, MdLocationOn } from 'react-icons/md';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { motion, useScroll, useTransform } from 'framer-motion';
 

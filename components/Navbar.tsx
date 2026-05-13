@@ -2,7 +2,7 @@
 import { motion } from 'framer-motion';
 import { FaLinkedin } from 'react-icons/fa';
 
-const navItems: { name: string, href: string }[] = [];
+
 
 export default function Navbar() {
     const handleScroll = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
