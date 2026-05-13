@@ -1,0 +1,13 @@
+
+C:\Users\SELVA\Downloads\sequence\portfolio\components\FooterCTA.tsx
+   3:20  error  'FaLinkedin' is defined but never used                           @typescript-eslint/no-unused-vars
+   4:10  error  'motion' is defined but never used                               @typescript-eslint/no-unused-vars
+  16:24  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  22:22  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\SELVA\Downloads\sequence\portfolio\components\ScrollyCanvas.tsx
+   95:6  warning  React Hook useEffect has missing dependencies: 'drawImage' and 'frameIndex'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  102:6  warning  React Hook useEffect has a missing dependency: 'drawImage'. Either include it or remove the dependency array                     react-hooks/exhaustive-deps
+
+Γ£û 6 problems (4 errors, 2 warnings)
+
