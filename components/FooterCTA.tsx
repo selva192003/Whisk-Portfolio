@@ -3,6 +3,7 @@ import { useRef } from 'react';
 import { MdEmail, MdPhone, MdLocationOn } from 'react-icons/md';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { motion, useScroll, useTransform } from 'framer-motion';
+import ContactForm from './ContactForm';
 
 export default function FooterCTA() {
     const containerRef = useRef<HTMLElement>(null);
@@ -91,6 +92,10 @@ export default function FooterCTA() {
                         </div>
                     </div>
 
+                </div>
+
+                <div className="mt-12">
+                    <ContactForm />
                 </div>
 
                 <div className="mt-16 text-center flex flex-col items-center border-t border-white/5 pt-8">
