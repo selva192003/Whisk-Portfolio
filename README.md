@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Selva J - Interactive Developer Portfolio
 
-## Getting Started
+A high-end, scrollytelling-based personal portfolio website built with Next.js 14, Framer Motion, and Tailwind CSS. This portfolio features a cinematic scroll-driven image sequence (HTML5 Canvas), advanced 3D tilt effects, parallax scrolling, custom cursors, and an integrated custom Nodemailer backend.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Cinematic Scrollytelling:** Immersive scroll-linked image sequence animations using HTML5 Canvas.
+- **Dynamic Interactions:** Custom cursors, 3D tilt effects on project cards, and parallax scrolling.
+- **Modern UI/UX:** Built with Tailwind CSS, featuring glassmorphism elements and smooth entrance reveals.
+- **Custom Contact Backend:** Integrated Next.js API route utilizing Nodemailer for secure, direct-to-inbox messaging without third-party services.
+- **Fully Responsive:** Optimized for both desktop and mobile experiences.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Framework:** Next.js 14 (App Router)
+- **Styling:** Tailwind CSS, `tailwind-merge`, `clsx`
+- **Animations:** Framer Motion
+- **Icons:** React Icons (Google Material & FontAwesome)
+- **Backend Email:** Nodemailer
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 💻 Running Locally
 
-## Learn More
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/selva192003/Whisk-Portfolio.git
+   cd portfolio
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. **Environment Setup:**
+   Create a `.env.local` file in the root directory and add your Google App Password for the contact form:
+   ```env
+   EMAIL_USER="selvaj192003@gmail.com"
+   EMAIL_PASS="your_16_character_app_password"
+   ```
+   *(Note: You must generate an App Password from your Google Account settings -> Security -> 2-Step Verification)*
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
 
-## Deploy on Vercel
+5. **Open your browser:**
+   Navigate to [http://localhost:3000](http://localhost:3000) to view the portfolio.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📦 Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new).
+
+**Important:** Remember to add your `EMAIL_USER` and `EMAIL_PASS` variables to your Vercel project's Environment Variables settings before deploying!
+
+## 📜 License
+
+This project is open-source and available under the [MIT License](LICENSE).
