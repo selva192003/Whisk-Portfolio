@@ -38,6 +38,7 @@ export default function ContactForm() {
                 setTimeout(() => setStatus('idle'), 5000);
             }
         } catch (error) {
+            console.error(error);
             setStatus('error');
             setTimeout(() => setStatus('idle'), 5000);
         }
@@ -49,7 +50,7 @@ export default function ContactForm() {
             <div className="absolute top-0 right-0 w-64 h-64 bg-blue-500/5 blur-[100px] rounded-full pointer-events-none" />
             
             <h3 className="text-3xl font-bold text-white mb-2">Send a Message</h3>
-            <p className="text-zinc-400 mb-8">Have a question or suggestion? I'd love to hear from you.</p>
+            <p className="text-zinc-400 mb-8">Have a question or suggestion? I&apos;d love to hear from you.</p>
 
             <form onSubmit={handleSubmit} className="flex flex-col gap-6 relative z-10">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -119,7 +120,7 @@ export default function ContactForm() {
             
             {status === 'success' && (
                 <p className="text-xs text-zinc-500 mt-4 text-center">
-                    Thank you for reaching out! I'll get back to you as soon as possible.
+                    Thank you for reaching out! I&apos;ll get back to you as soon as possible.
                 </p>
             )}
         </div>
