@@ -19,28 +19,17 @@ type ProjectType = {
 const projects: ProjectType[] = [
     {
         id: 1,
-        title: "Agro Emission AI",
-        category: "Machine Learning",
-        year: "2024",
-        description: "AI-powered data science project predicting agricultural emission patterns using environmental data to provide insights for sustainable farming.",
-        technologies: ["Python", "Pandas", "Scikit-learn"],
-        link: "https://github.com/selva192003/DS_Micro_Project",
-        github: "https://github.com/selva192003/DS_Micro_Project",
-        image: "/images/Agro Emission AI.jpg"
+        title: "Sri Murugan Electrical",
+        category: "E-Commerce",
+        year: "2026",
+        description: "Modern, scalable e-commerce platform built to seamlessly manage product catalogs, customizable options, and high-performance routing.",
+        technologies: ["React", "Node.js", "MongoDB"],
+        link: "https://srimuruganelectricals.vercel.app",
+        github: "https://github.com/selva192003/sri-murugan-electrical",
+        image: "/images/sri murugan electricals logo.png"
     },
     {
         id: 2,
-        title: "Titanic Predict",
-        category: "Data Science",
-        year: "2024",
-        description: "Classification model predicting passenger survival outcomes. Implements EDA and model evaluation with detailed performance metrics.",
-        technologies: ["TensorFlow", "Keras", "NumPy"],
-        link: "https://github.com/selva192003/ML-Micro-Project",
-        github: "https://github.com/selva192003/ML-Micro-Project",
-        image: "/images/Titanic Predict.png"
-    },
-    {
-        id: 3,
         title: "IPL Stats Hub",
         category: "Full-Stack Dashboard",
         year: "2025",
@@ -51,7 +40,7 @@ const projects: ProjectType[] = [
         image: "/images/IPL logo.jpg"
     },
     {
-        id: 4,
+        id: 3,
         title: "Expense Ease",
         category: "Python Application",
         year: "2025",
@@ -62,15 +51,26 @@ const projects: ProjectType[] = [
         image: "/images/Expense Ease logo.png"
     },
     {
+        id: 4,
+        title: "Agro Emission AI",
+        category: "Machine Learning",
+        year: "2024",
+        description: "AI-powered data science project predicting agricultural emission patterns using environmental data to provide insights for sustainable farming.",
+        technologies: ["Python", "Pandas", "Scikit-learn"],
+        link: "https://github.com/selva192003/DS_Micro_Project",
+        github: "https://github.com/selva192003/DS_Micro_Project",
+        image: "/images/Agro Emission AI.jpg"
+    },
+    {
         id: 5,
-        title: "Sri Murugan Electrical",
-        category: "E-Commerce",
-        year: "2026",
-        description: "Modern, scalable e-commerce platform built to seamlessly manage product catalogs, customizable options, and high-performance routing.",
-        technologies: ["React", "Node.js", "MongoDB"],
-        link: "https://srimuruganelectricals.vercel.app",
-        github: "https://github.com/selva192003/sri-murugan-electrical",
-        image: "/images/sri murugan electricals logo.png"
+        title: "Titanic Predict",
+        category: "Data Science",
+        year: "2024",
+        description: "Classification model predicting passenger survival outcomes. Implements EDA and model evaluation with detailed performance metrics.",
+        technologies: ["TensorFlow", "Keras", "NumPy"],
+        link: "https://github.com/selva192003/ML-Micro-Project",
+        github: "https://github.com/selva192003/ML-Micro-Project",
+        image: "/images/Titanic Predict.png"
     }
 ];
 
