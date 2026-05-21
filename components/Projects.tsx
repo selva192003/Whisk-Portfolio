@@ -19,28 +19,6 @@ type ProjectType = {
 const projects: ProjectType[] = [
     {
         id: 1,
-        title: "IPL Stats Hub",
-        category: "Full-Stack Dashboard",
-        year: "2025",
-        description: "A comprehensive IPL analytics dashboard featuring 1,095+ matches, 10 franchises, and 290+ international players. Built with Spring Boot and Recharts.",
-        technologies: ["React", "Spring Boot", "Tailwind CSS"],
-        link: "https://ipl-dash-board-tau.vercel.app",
-        github: "https://github.com/selva192003/IPL-DashBoard",
-        image: "/images/IPL logo.jpg"
-    },
-    {
-        id: 2,
-        title: "Expense Ease",
-        category: "Python Application",
-        year: "2025",
-        description: "A smart expense tracking and management desktop application with intuitive categorization, budget monitoring, and financial analytics.",
-        technologies: ["Python", "Flask", "SQLite"],
-        link: "https://github.com/selva192003/python-microProj/releases",
-        github: "https://github.com/selva192003/python-microProj",
-        image: "/images/Expense Ease logo.png"
-    },
-    {
-        id: 3,
         title: "Agro Emission AI",
         category: "Machine Learning",
         year: "2024",
@@ -51,7 +29,7 @@ const projects: ProjectType[] = [
         image: "/images/Agro Emission AI.jpg"
     },
     {
-        id: 4,
+        id: 2,
         title: "Titanic Predict",
         category: "Data Science",
         year: "2024",
@@ -60,6 +38,28 @@ const projects: ProjectType[] = [
         link: "https://github.com/selva192003/ML-Micro-Project",
         github: "https://github.com/selva192003/ML-Micro-Project",
         image: "/images/Titanic Predict.png"
+    },
+    {
+        id: 3,
+        title: "IPL Stats Hub",
+        category: "Full-Stack Dashboard",
+        year: "2025",
+        description: "A comprehensive IPL analytics dashboard featuring 1,095+ matches, 10 franchises, and 290+ international players. Built with Spring Boot and Recharts.",
+        technologies: ["React", "Spring Boot", "Tailwind CSS"],
+        link: "https://ipl-dash-board-tau.vercel.app",
+        github: "https://github.com/selva192003/IPL-DashBoard",
+        image: "/images/IPL logo.jpg"
+    },
+    {
+        id: 4,
+        title: "Expense Ease",
+        category: "Python Application",
+        year: "2025",
+        description: "A smart expense tracking and management desktop application with intuitive categorization, budget monitoring, and financial analytics.",
+        technologies: ["Python", "Flask", "SQLite"],
+        link: "https://github.com/selva192003/python-microProj/releases",
+        github: "https://github.com/selva192003/python-microProj",
+        image: "/images/Expense Ease logo.png"
     },
     {
         id: 5,
